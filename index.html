@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Meu Blog - Cartas para Yuri</title>
+
+  <!-- Fonte manuscrita do Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body data-theme="yuri">
+<!-- <body data-theme="memorias"></body> -->
+  <header>
+    <h1>Cartas para Yuri</h1>
+    <p class="subtitle">Memórias de uma mãe inteira</p>
+
+    <div class="controls">
+      <label>
+        Filtrar por mês:
+        <select id="filter-month">
+          <option value="all">Todos</option>
+          <option value="2025-08">Agosto 2025</option>
+          <option value="2025-07">Julho 2025</option>
+          <option value="2025-06">Junho 2025</option>
+        </select>
+      </label>
+
+      <label>
+        Filtrar por tema:
+        <select id="filter-theme">
+          <option value="all">Todos</option>
+          <option value="yuri">Cartas para Yuri</option>
+          <option value="eu">Pedaços de mim espalhados pela casa</option>
+          <option value="memorias">Nossas memórias</option>
+        </select>
+      </label>
+
+      <button id="toggle-theme">Modo Noturno</button>
+    </div>
+  </header>
+
+  <main id="posts-list">
+    <!-- Posts via JS -->
+  </main>
+
+  <footer>
+    <p>© 2025 Emilly Andrade - Blog Pessoal</p>
+  </footer>
+
+  <script src="js/scripts.js"></script>
+</body>
+</html>
