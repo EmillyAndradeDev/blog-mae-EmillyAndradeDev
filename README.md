@@ -1,5 +1,6 @@
 
 ## 📂 Estrutura das Pastas 
+
 ```
 /meu-blog/
 │
